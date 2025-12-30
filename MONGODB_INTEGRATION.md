@@ -7,7 +7,7 @@ This application has been successfully integrated with MongoDB to replace the pr
 
 ### MongoDB Connection
 - **Database**: `insurance-system`
-- **Connection**: Local MongoDB instance running on `mongodb://127.0.0.1:27017`
+- **Connection**: Local MongoDB instance running on `mongodb+srv://sabbaghh915_db_user:aBOqxNHI7pmznoUx@cluster0.k0ksydy.mongodb.net/`
 - **Port**: 27017
 
 ### Collections
@@ -292,3 +292,4 @@ All data that was previously stored in localStorage is now:
 4. Deleted through API endpoints
 
 The application maintains backward compatibility during the transition period.
+
