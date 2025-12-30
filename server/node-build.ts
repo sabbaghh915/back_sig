@@ -31,5 +31,7 @@ app.listen(port, () => {
   console.log(`🚀 Fusion Starter server running on port ${port}`);
   console.log(`📱 Frontend: http://localhost:${port}`);
   console.log(`🔧 API: http://localhost:${port}/api`);
+  console.log("✅ Mongo URI (masked):", masked);
+  console.log("✅ MongoDB Connected");
   console.log(`🔐 JWT_SECRET loaded?`, !!process.env.JWT_SECRET); // ✅ للتأكد
 });
